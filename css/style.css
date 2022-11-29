@@ -1,0 +1,19 @@
+body{
+    display: grid;
+    height: 100%;
+    width: 100%;
+    
+}
+
+#wrapper{
+    display: flex;
+}
+
+header{
+    height: 80%;  
+    width: 99%;
+    background-color: #550088;
+    display: flex;
+    flex: wrap;
+    justify-content: center;
+}

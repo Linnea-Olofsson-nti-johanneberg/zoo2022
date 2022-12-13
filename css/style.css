@@ -1,19 +1,36 @@
-body{
-    display: grid;
-    height: 100%;
-    width: 100%;
-    
-}
-
 #wrapper{
-    display: flex;
+    display: grid;
+    height: 90vh;
+    width: 90%;
+    margin: auto;
+    grid-template-areas: "hd hd hd"
+    "na na na"
+    "s1 s1 s1"
+    "as as as"
+    "ft ft ft";
 }
 
 header{
-    height: 80%;  
-    width: 99%;
+    grid-area: hd;
     background-color: #550088;
-    display: flex;
-    flex: wrap;
-    justify-content: center;
+}
+
+nav{
+    grid-area: na;
+    background-color: aliceblue;
+}
+
+#section1{
+    grid-area: s1;
+    background-color: aliceblue;
+}
+
+aside{
+    grid-area: as;
+    background-color: aliceblue;
+}
+
+footer{
+    grid-area: ft;
+    background-color: aliceblue;
 }

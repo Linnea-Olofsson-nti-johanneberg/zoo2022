@@ -8,6 +8,9 @@
     "s1 s1 s1"
     "as as as"
     "ft ft ft";
+
+    grid-template-columns: auto auto auto;
+    grid-row: 1fr 1fr 1fr;
 }
 
 header{

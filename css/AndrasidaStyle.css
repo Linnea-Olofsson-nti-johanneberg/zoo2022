@@ -1,0 +1,8 @@
+#wrapper2{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+    margin: auto;
+    justify-content: center;
+}
+
